@@ -1167,11 +1167,18 @@
 #define X_DIR_PIN 23
 #define X_STOP_PIN 22
 #define X_ENABLE_PIN 27
+/*
+Original pins for Y
 
 #define Y_STEP_PIN 32
 #define Y_DIR_PIN 33
 #define Y_STOP_PIN 26
 #define Y_ENABLE_PIN 31
+*/
+#define Y_STEP_PIN 49
+#define Y_DIR_PIN 47
+#define Y_STOP_PIN 26
+#define Y_ENABLE_PIN 48
 
 #define Z_STEP_PIN 35
 #define Z_DIR_PIN 36
@@ -1194,9 +1201,16 @@
 #define E0_DIR_PIN          43
 #define E0_ENABLE_PIN       37
 
+/*
+Original pins for E1
+
 #define E1_STEP_PIN         49
 #define E1_DIR_PIN          47
 #define E1_ENABLE_PIN       48
+*/
+#define E1_STEP_PIN         32
+#define E1_DIR_PIN          33
+#define E1_ENABLE_PIN       31
 
 #define SDPOWER            -1
 #define SDSS               53
